@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF1F4"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".activity.NetPromotorScoreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:padding="8dp"
+                card_view:cardCornerRadius="10dp"
+                tools:context=".activity.NetPromotorScoreActivity"
+                tools:ignore="MissingConstraints">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:ignore="MissingConstraints">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginRight="7dp"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/xpsho"
+                                android:textColor="#444A53"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/xpshofeed"
+                                android:textColor="#6E7275" />
+
+                            <RatingBar
+                                android:id="@+id/shopratingStar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:numStars="5"
+                                android:progressTint="#ffff8800"
+                                android:rating="0"
+                                android:stepSize=".5" />
+
+                            <EditText
+                                android:id="@+id/descshopEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@drawable/custom_spinner_background"
+                                android:gravity="top|left"
+                                android:hint="@string/xoaadddesrefute"
+                                android:inputType="textCapSentences|textMultiLine"
+                                android:lines="5"
+                                android:maxLines="5"
+                                android:minLines="2"
+                                android:paddingLeft="6dp"
+                                android:scrollbars="vertical"
+                                android:textColor="@color/textcolor"
+                                android:textColorHint="@color/color_faintgray" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:padding="8dp"
+                card_view:cardCornerRadius="10dp"
+                tools:context=".activity.NetPromotorScoreActivity"
+                tools:ignore="MissingConstraints">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:ignore="MissingConstraints">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginRight="7dp"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/xincai"
+                                android:textColor="#444A53"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/xincaifeed"
+                                android:textColor="#6E7275" />
+
+                            <RatingBar
+                                android:id="@+id/inciratingStar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:numStars="5"
+                                android:progressTint="#ffff8800"
+                                android:rating="0"
+                                android:stepSize=".5" />
+
+                            <EditText
+                                android:id="@+id/descinciEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@drawable/custom_spinner_background"
+                                android:gravity="top|left"
+                                android:hint="@string/xoaadddesrefute"
+                                android:inputType="textCapSentences|textMultiLine"
+                                android:lines="5"
+                                android:maxLines="5"
+                                android:minLines="2"
+                                android:paddingLeft="6dp"
+                                android:scrollbars="vertical"
+                                android:textColor="@color/textcolor"
+                                android:textColorHint="@color/color_faintgray" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:padding="8dp"
+                card_view:cardCornerRadius="10dp"
+                tools:context=".activity.NetPromotorScoreActivity"
+                tools:ignore="MissingConstraints">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:ignore="MissingConstraints">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginRight="7dp"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/xpmsg"
+                                android:textColor="#444A53"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/xpmsgfeed"
+                                android:textColor="#6E7275" />
+
+                            <RatingBar
+                                android:id="@+id/msgratingStar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:numStars="5"
+                                android:progressTint="#ffff8800"
+                                android:rating="0"
+                                android:stepSize=".5" />
+
+                            <EditText
+                                android:id="@+id/descmsgEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@drawable/custom_spinner_background"
+                                android:gravity="top|left"
+                                android:hint="@string/xoaadddesrefute"
+                                android:inputType="textCapSentences|textMultiLine"
+                                android:lines="5"
+                                android:maxLines="5"
+                                android:minLines="2"
+                                android:paddingLeft="6dp"
+                                android:scrollbars="vertical"
+                                android:textColor="@color/textcolor"
+                                android:textColorHint="@color/color_faintgray" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_but_background"
+                android:text="@string/xsub"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/notnow"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_butn_background"
+                android:text="@string/xnotnow"
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

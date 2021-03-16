@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item
+        android:id="@+id/inappropriate"
+        android:title="Flag as inappropriate"
+        android:iconTint="@color/white"
+        android:icon="@drawable/flags_black_36"
+        app:showAsAction="ifRoom"
+        />
+    <!--<item
+        android:id="@+id/overflowMenu"
+        android:title=""
+        app:showAsAction="withText">
+        <menu>
+            <item
+                android:id="@+id/inappropriate"
+                android:icon="@drawable/my_loction_icon"
+                android:title="Flag as inappropriate"
+                />
+        </menu>
+    </item>-->
+</menu>
